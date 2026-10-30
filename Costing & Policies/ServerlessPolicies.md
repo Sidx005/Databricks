@@ -113,3 +113,81 @@ GROUP BY
     usage_unit
 ORDER BY usage_date DESC;
 ```
+
+
+## Key & Values (Custom Tags)
+In Databricks Serverless Budget Policies, keys and values are custom tags used to classify serverless usage.
+
+Think of them as labels attached to your compute consumption.
+
+### 1. What is a Key?
+
+A key defines what information you want to capture.
+
+Examples:
+
+- `team`
+- `environment`
+- `project`
+- `department`
+- `application`
+
+### 2. What is a Value?
+
+A value specifies the actual information for that key.
+
+For example:
+
+| Key           | Value             |
+| ------------- | ----------------- |
+| `team`        | `sales-analytics` |
+| `environment` | `production`      |
+| `project`     | `sales-dashboard` |
+| `department`  | `finance`         |
+| `application` | `customer-360`    |
+
+### 3. Example from your policy
+
+Your `demo policy` contains:
+
+| Key         | Value                 |
+| ----------- | --------------------- |
+| `app_space` | `sales-insights-demo` |
+| `team`      | `sales-analytics`     |
+
+This means:
+
+- `app_space` tells us which project or application space the usage belongs to.
+- `team` tells us which team is responsible for the usage.
+
+### 4. How are these used?
+
+When you apply the policy to a serverless notebook, the associated tags can appear in:
+
+`system.billing.usage` → `custom_tags`
+
+For example:
+
+```
+{
+  "app_space": "sales-insights-demo",
+  "team": "sales-analytics"
+}
+```
+
+You can then query:
+
+```
+SELECT
+    custom_tags['team'] AS team,
+    SUM(usage_quantity) AS total_usage
+FROM system.billing.usage
+WHERE custom_tags['team'] IS NOT NULL
+GROUP BY custom_tags['team'];
+```
+
+This helps answer:
+
+How much serverless usage is attributed to each team?
+
+In simple terms: Key = What you want to identify. Value = The actual identity or category you assign to it.
