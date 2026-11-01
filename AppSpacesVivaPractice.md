@@ -107,6 +107,32 @@ It allows an application to access Databricks resources using the identity and p
 
 A Sales employee opens an application. The app accesses Sales data using the employee's identity, rather than using a shared application identity.
 
+**Q5. What is OAuth Scopes?**
+An OAuth scope deifnes the specific API or resource permissions that an application can request when acting on behalf of a user.
+It limits the functionality the application can access through user authentication.
+
+**Q6. Why are scopes required?**
+Scopes follow the principle of least privilege.
+Even if a user has extensive Datbricks permissions,an aplication cannot use user authorization to access APIs outside its approved scopes.
+
+**Q7. What are some examples of OAuth Scopes?**
+It is the default colection of 11 user authorization scopes available when creating an App Space through the documented configuration.
+These include:
+- sql (Databricks SQL functionality)
+- sql:restricted-query (Read-only SQL query access)
+- genie (Genie functionality)
+- model-serving (Model serving)
+- files (File operations)
+- model-serving (Model Serving)
+- vector-search (Vector Search)
+- catalog.tables:read (Read Catalog Table Metadata)
+- catalog.schemas:read (Read schema metadata)
+  
+**Q8. What happens when a user first accesses an application requesting OAuth scopes?**
+The user is prompted to provide consent for the requested scopes.
+Consent is granted for the application and the associated set of scopes. Users can review and revoke their consent.
+
+
 ## Bundles
 
 Important Commands:
