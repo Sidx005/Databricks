@@ -133,6 +133,34 @@ The user is prompted to provide consent for the requested scopes.
 Consent is granted for the application and the associated set of scopes. Users can review and revoke their consent.
 
 
+
+## Genie App builder and Agentic AI
+**Q1. What is Genie App Builder?**
+Genie App Builder is a natural languagebased application development experience that allows users to create Databricks Apps by describing what they want to build.
+
+**Q2. Why is it called agentic app building?**
+Because an AI Agent asist with generating,refining and deploying application functionality based on natural-language instructions.
+
+**Q3. What is AppKit?**
+AppKit is the application framework used by Genie App Builder to generate and structure applications.
+
+**Q3. What is the difference between Genie and Genie App Builder?**
+| Genie | Genie App Builder |
+|---|---|
+| Conversational analytics experience | Application-building experience |
+| Users ask questions about data | Users describe an application |
+| Generates data insights and answers | Generates application functionality |
+| Focuses on data exploration | Focuses on application creation |
+
+
+**Q4. What are Serverless Micro Apps?**
+Serverless Micro Apps are lightweight applications that run in an on-demand serverless environment.
+They can scale down to zero when idle and start again when a user requests them.
+
+**Q5. What was the pricing of App Spaces and Serverless Micro Apps during the documented Beta?**
+The September 2026 Beta documentation states that App Spaces, Genie App Builder and Serverless Micro Apps had no charge during Beta. Pricing is subject to change.
+Do not confuse this with traditional Databricks Apps, which have compute-based billing.
+
 ## Bundles
 
 Important Commands:
@@ -150,3 +178,4 @@ databricks bundle run <resource-name> -t dev
 databricks bundle destroy -t dev
 
 ```
+
