@@ -12,7 +12,6 @@ It provides a managed serverless infrastructure, authentication, authorization &
 
 **eg:** Dashboards, AI Chatbots, data-entry applications and operational interfaces
 
-
 **Q2. Why did databricks introduce Apps?**
 To simplify the application hosting & integration with the existing Databricks Ecosystem.
 Instead of developers needing separate infra to host apps, configure auhentication & manage dat access anf deployment environments.
@@ -23,7 +22,6 @@ Traditional web applications generally require developers to provision and maint
 Databricks Apps provides managed serverless hosting and native integration with Databricks authentication, data governance and platform resources.
 
 **Q4. Does Databricks Apps require a separate cloud server?**
-
 No. Databricks manages the application hosting infrastructure through its serverless platform.
 
 **Q5. What is a Databricks App runtime?**
@@ -42,7 +40,7 @@ Yes. The developer can share an app with users or groups and assign permissions 
 **Q9. Are Databricks Apps always running?**
 Tradtional Apps use dedicated serverless instances with their configured compute behaviour. Serverless Micro Apps, on the other hand, can scale to zero when idle and restart when requested.
 
-**Q15. What are the main components of a Databricks App?**
+**Q10. What are the main components of a Databricks App?**
 - Application source code.
 - Application configuration.
 - Dependencies.
@@ -53,7 +51,7 @@ Tradtional Apps use dedicated serverless instances with their configured compute
 - Deployment configuration.
 
 
-## App Spaces
+# App Spaces
 
 **Q1. What is an App Space?**
   An App space is a governance boundary in Databricks that allows workspace administrators centraloy control:
@@ -86,8 +84,7 @@ No. During Beta, Genie App Builder creates applications inside an App Space.
 Not through the documented Beta functionality. Serverless Micro Apps are created through Genie App Builder inside an App Space.
 
 
-
-## Authentication , Authorization & OBO
+# Authentication , Authorization & OBO
 
 **Q1. What is authentication?**
 Authentication verifies the identity of the user attempting to access an application.
@@ -133,10 +130,10 @@ The user is prompted to provide consent for the requested scopes.
 Consent is granted for the application and the associated set of scopes. Users can review and revoke their consent.
 
 
+# Genie App builder and Agentic AI
 
-## Genie App builder and Agentic AI
 **Q1. What is Genie App Builder?**
-Genie App Builder is a natural languagebased application development experience that allows users to create Databricks Apps by describing what they want to build.
+Genie App Builder is a natural language based application development experience that allows users to create Databricks Apps by describing what they want to build.
 
 **Q2. Why is it called agentic app building?**
 Because an AI Agent asist with generating,refining and deploying application functionality based on natural-language instructions.
@@ -160,6 +157,8 @@ They can scale down to zero when idle and start again when a user requests them.
 **Q5. What was the pricing of App Spaces and Serverless Micro Apps during the documented Beta?**
 The September 2026 Beta documentation states that App Spaces, Genie App Builder and Serverless Micro Apps had no charge during Beta. Pricing is subject to change.
 Do not confuse this with traditional Databricks Apps, which have compute-based billing.
+
+
 
 ## Bundles
 
