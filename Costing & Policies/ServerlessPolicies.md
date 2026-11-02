@@ -14,7 +14,10 @@ Serverless policies also previously called budget policies are for tracking and 
 
 ## 3. Create a Budget Policy by clicking on Create Button
 
-<img width="130" height="239" alt="image" src="https://github.com/user-attachments/assets/a37d97ff-f2b8-44c6-a13d-26948c929ef5" /> <br/>
+<img width="675" height="194" alt="image" src="https://github.com/user-attachments/assets/1f3bb241-0679-47ca-8608-9ca19ff2a22c" /> <br/>
+
+<img width="803" height="443" alt="image" src="https://github.com/user-attachments/assets/3865f83b-a950-40c7-ae59-935076c8f91f" /> <br/>
+
 
 <img width="476" height="292" alt="image" src="https://github.com/user-attachments/assets/d3341fd9-da69-4f91-b082-94c2770e82cc" /> <br/>
 
@@ -147,9 +150,9 @@ For example:
 | `department`  | `finance`         |
 | `application` | `customer-360`    |
 
-### 3. Example from your policy
+### 3. Example from my policy
 
-Your `demo policy` contains:
+My `demo policy` contains:
 
 | Key         | Value                 |
 | ----------- | --------------------- |
