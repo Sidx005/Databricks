@@ -36,6 +36,20 @@
 
 
 
+
+## 6. Data Change for understanding SCD Type
+
+<img width="642" height="716" alt="image" src="https://github.com/user-attachments/assets/6d2c93e8-e1f5-41a8-bdae-9e1b1836076a" />
+
+
+
 ## 6. Check Sample Data
 
 <img width="875" height="797" alt="image" src="https://github.com/user-attachments/assets/eb0e2a85-9a91-4dd3-8dab-84d2eb7bfb04" />
+
+
+
+## Run Pipeline
+
+<img width="896" height="762" alt="image" src="https://github.com/user-attachments/assets/8cf15974-1688-4268-a7f9-97c12301529d" />
+
