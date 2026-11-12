@@ -48,8 +48,36 @@
 <img width="875" height="797" alt="image" src="https://github.com/user-attachments/assets/eb0e2a85-9a91-4dd3-8dab-84d2eb7bfb04" />
 
 
-
 ## Run Pipeline
 
 <img width="896" height="762" alt="image" src="https://github.com/user-attachments/assets/8cf15974-1688-4268-a7f9-97c12301529d" />
+
+
+
+------------------------------------------------------------------------------------
+
+
+# Salesforce
+
+1. Accounts
+
+In Salesforce, the Accounts tab represents the companies, organizations, or businesses that your company has a relationship with.
+
+
+<img width="1218" height="857" alt="image" src="https://github.com/user-attachments/assets/88396f72-db9d-4805-a7a4-2b179d89e911" />
+
+
+
+2. Opportunities
+
+<img width="1148" height="693" alt="image" src="https://github.com/user-attachments/assets/b37511ad-5645-4db9-be81-17fce2515830" />
+
+
+
+
+## Data Modification
+
+
+
+<img width="1116" height="65" alt="image" src="https://github.com/user-attachments/assets/4087a4b6-14b7-4c84-a9ca-30177ade4406" />
 
